@@ -122,7 +122,7 @@ func TestUpdate(t *testing.T) {
 	}
 }
 
-// Sadly, github.com/rancher/wrangler/pkg/generic/fake package generates mock clients that lack
+// Sadly, github.com/rancher/wrangler/v3/pkg/generic/fake package generates mock clients that lack
 // the ctx parameter that is required by the CloudInitInterface.
 
 type mockClient struct {
